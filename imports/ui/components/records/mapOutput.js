@@ -56,6 +56,8 @@ export default function mapOutput(output, project) {
     "GESTOR",
     "NOMBRE_CLIENTE",
     "NUMERO_DE_LA_ORDEN",
+    "DESCRIPCION_BARRIO",
+    "DIRECCION_PREDIO",
     "causal_de_pago",
     "causal_de_no_pago",
     "fecha_compromiso",

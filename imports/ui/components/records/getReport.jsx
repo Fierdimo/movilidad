@@ -147,10 +147,10 @@ export default function GetReport({ admin = false }) {
   };
 
   async function handleExport() {
-    const pageSize = 100;
+    const pageSize = 200;
     let page = 1;
     const allData = [];
-    let total = Infinity;
+    let total = 100000;
     try {
       while (total / pageSize >= page) {
         const partData = await Meteor.callAsync("reportManagement", {

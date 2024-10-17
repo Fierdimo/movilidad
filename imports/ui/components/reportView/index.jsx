@@ -110,7 +110,7 @@ export default function AdminView() {
   }
   
   async function handleExport() {
-    const pageSize = 1;
+    const pageSize = 100;
     let page = 1;
     const allData = [];
     let total = 10000000;
